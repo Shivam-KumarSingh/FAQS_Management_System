@@ -1,0 +1,109 @@
+
+  /* AdminPage.css */
+.admin-container {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: #f4f7fc;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2c3e50;
+    color: white;
+    padding: 15px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  header nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  header nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  header nav a:hover {
+    color: #3498db;
+  }
+  
+  .dashboard-overview {
+    margin-top: 30px;
+  }
+  
+  .dashboard-overview h2 {
+    color: #2c3e50;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .faq-table table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .faq-table th,
+  .faq-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .faq-table th {
+    background-color: #34495e;
+    color: white;
+  }
+  
+  .faq-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .faq-table td button {
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    margin: 0 5px;
+    border-radius: 4px;
+    transition: 0.3s;
+  }
+  
+  .edit-btn {
+    background-color: #f39c12;
+    color: white;
+  }
+  
+  .delete-btn {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+  .edit-btn:hover {
+    background-color: #e67e22;
+  }
+  
+  .delete-btn:hover {
+    background-color: #c0392b;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+    color: #7f8c8d;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
